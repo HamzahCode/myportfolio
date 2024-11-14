@@ -1,0 +1,39 @@
+.skill-section {
+  margin: 0px auto;
+  background-color: rgb(248, 237, 175);
+  width: 1300px;
+  height: 400px;
+}
+
+.title {
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.skill-info {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  /* height: 340px; */
+  flex-wrap: wrap;
+}
+
+.skill-list div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: calc((100% - 40px) / 2);
+  height: 120px;
+  background-color: white;
+  box-shadow: 1px 1px 5px black;
+}
